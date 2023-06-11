@@ -1,0 +1,3 @@
+/mnt/c/Users/mrpour/CLionProjects/C++learning/cmake-build-release-wsl/CMakeFiles/C__learning.dir
+/mnt/c/Users/mrpour/CLionProjects/C++learning/cmake-build-release-wsl/CMakeFiles/edit_cache.dir
+/mnt/c/Users/mrpour/CLionProjects/C++learning/cmake-build-release-wsl/CMakeFiles/rebuild_cache.dir
