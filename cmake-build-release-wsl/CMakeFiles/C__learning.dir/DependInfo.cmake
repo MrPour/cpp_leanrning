@@ -8,7 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/mnt/c/Users/mrpour/CLionProjects/C++learning/stl/list_demo.cpp" "CMakeFiles/C__learning.dir/stl/list_demo.cpp.o" "gcc" "CMakeFiles/C__learning.dir/stl/list_demo.cpp.o.d"
+  "/mnt/c/Users/mrpour/CLionProjects/C++learning/string/String.cpp" "CMakeFiles/C__learning.dir/string/String.cpp.o" "gcc" "CMakeFiles/C__learning.dir/string/String.cpp.o.d"
+  "/mnt/c/Users/mrpour/CLionProjects/C++learning/string/string_main.cpp" "CMakeFiles/C__learning.dir/string/string_main.cpp.o" "gcc" "CMakeFiles/C__learning.dir/string/string_main.cpp.o.d"
   )
 
 # Targets to which this target links.

@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/C__learning.dir/stl/list_demo.cpp.o"
-  "CMakeFiles/C__learning.dir/stl/list_demo.cpp.o.d"
+  "CMakeFiles/C__learning.dir/string/String.cpp.o"
+  "CMakeFiles/C__learning.dir/string/String.cpp.o.d"
+  "CMakeFiles/C__learning.dir/string/string_main.cpp.o"
+  "CMakeFiles/C__learning.dir/string/string_main.cpp.o.d"
   "C__learning"
   "C__learning.pdb"
 )

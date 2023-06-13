@@ -82,7 +82,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/mnt/c/Users/mrpour/CLionProjects/C++learning/stl/list_demo.cpp">
+		<Unit filename="/mnt/c/Users/mrpour/CLionProjects/C++learning/string/String.cpp">
+			<Option target="C__learning"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/mrpour/CLionProjects/C++learning/string/String.h">
+			<Option target="C__learning"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/mrpour/CLionProjects/C++learning/string/string_main.cpp">
 			<Option target="C__learning"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/mrpour/CLionProjects/C++learning/CMakeLists.txt">

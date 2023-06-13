@@ -129,29 +129,53 @@ C__learning/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__learning.dir/build.make CMakeFiles/C__learning.dir/build
 .PHONY : C__learning/fast
 
-stl/list_demo.o: stl/list_demo.cpp.o
-.PHONY : stl/list_demo.o
+string/String.o: string/String.cpp.o
+.PHONY : string/String.o
 
 # target to build an object file
-stl/list_demo.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__learning.dir/build.make CMakeFiles/C__learning.dir/stl/list_demo.cpp.o
-.PHONY : stl/list_demo.cpp.o
+string/String.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__learning.dir/build.make CMakeFiles/C__learning.dir/string/String.cpp.o
+.PHONY : string/String.cpp.o
 
-stl/list_demo.i: stl/list_demo.cpp.i
-.PHONY : stl/list_demo.i
+string/String.i: string/String.cpp.i
+.PHONY : string/String.i
 
 # target to preprocess a source file
-stl/list_demo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__learning.dir/build.make CMakeFiles/C__learning.dir/stl/list_demo.cpp.i
-.PHONY : stl/list_demo.cpp.i
+string/String.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__learning.dir/build.make CMakeFiles/C__learning.dir/string/String.cpp.i
+.PHONY : string/String.cpp.i
 
-stl/list_demo.s: stl/list_demo.cpp.s
-.PHONY : stl/list_demo.s
+string/String.s: string/String.cpp.s
+.PHONY : string/String.s
 
 # target to generate assembly for a file
-stl/list_demo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__learning.dir/build.make CMakeFiles/C__learning.dir/stl/list_demo.cpp.s
-.PHONY : stl/list_demo.cpp.s
+string/String.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__learning.dir/build.make CMakeFiles/C__learning.dir/string/String.cpp.s
+.PHONY : string/String.cpp.s
+
+string/string_main.o: string/string_main.cpp.o
+.PHONY : string/string_main.o
+
+# target to build an object file
+string/string_main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__learning.dir/build.make CMakeFiles/C__learning.dir/string/string_main.cpp.o
+.PHONY : string/string_main.cpp.o
+
+string/string_main.i: string/string_main.cpp.i
+.PHONY : string/string_main.i
+
+# target to preprocess a source file
+string/string_main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__learning.dir/build.make CMakeFiles/C__learning.dir/string/string_main.cpp.i
+.PHONY : string/string_main.cpp.i
+
+string/string_main.s: string/string_main.cpp.s
+.PHONY : string/string_main.s
+
+# target to generate assembly for a file
+string/string_main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__learning.dir/build.make CMakeFiles/C__learning.dir/string/string_main.cpp.s
+.PHONY : string/string_main.cpp.s
 
 # Help Target
 help:
@@ -162,9 +186,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... C__learning"
-	@echo "... stl/list_demo.o"
-	@echo "... stl/list_demo.i"
-	@echo "... stl/list_demo.s"
+	@echo "... string/String.o"
+	@echo "... string/String.i"
+	@echo "... string/String.s"
+	@echo "... string/string_main.o"
+	@echo "... string/string_main.i"
+	@echo "... string/string_main.s"
 .PHONY : help
 
 

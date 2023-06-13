@@ -16,7 +16,8 @@ public:
 
     //【含参构造】
     Complex(double _real,double _image);
-    //【拷贝构造】
+    //【拷贝构造】 -- 默认的拷贝构造执行的浅拷贝，如果成员是指针，则指针都与被拷贝者指向的是同一个地址，析构时会造成悬空指针的情况
+    //因此通常要重写类的拷贝构造函数！！！
     Complex(const Complex& x);
     //【与java不同】：析构函数 -- 销毁时调用
     virtual ~Complex();//

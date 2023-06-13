@@ -29,6 +29,5 @@ int main(){
         (*ri)++;
         cout<<*ri<<" ";
     }
-    cout<<endl;
     return 0;
 }

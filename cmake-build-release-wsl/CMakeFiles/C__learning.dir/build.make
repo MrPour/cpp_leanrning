@@ -69,31 +69,47 @@ include CMakeFiles/C__learning.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/C__learning.dir/flags.make
 
-CMakeFiles/C__learning.dir/stl/list_demo.cpp.o: CMakeFiles/C__learning.dir/flags.make
-CMakeFiles/C__learning.dir/stl/list_demo.cpp.o: ../stl/list_demo.cpp
-CMakeFiles/C__learning.dir/stl/list_demo.cpp.o: CMakeFiles/C__learning.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/mrpour/CLionProjects/C++learning/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/C__learning.dir/stl/list_demo.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/C__learning.dir/stl/list_demo.cpp.o -MF CMakeFiles/C__learning.dir/stl/list_demo.cpp.o.d -o CMakeFiles/C__learning.dir/stl/list_demo.cpp.o -c /mnt/c/Users/mrpour/CLionProjects/C++learning/stl/list_demo.cpp
+CMakeFiles/C__learning.dir/string/String.cpp.o: CMakeFiles/C__learning.dir/flags.make
+CMakeFiles/C__learning.dir/string/String.cpp.o: ../string/String.cpp
+CMakeFiles/C__learning.dir/string/String.cpp.o: CMakeFiles/C__learning.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/mrpour/CLionProjects/C++learning/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/C__learning.dir/string/String.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/C__learning.dir/string/String.cpp.o -MF CMakeFiles/C__learning.dir/string/String.cpp.o.d -o CMakeFiles/C__learning.dir/string/String.cpp.o -c /mnt/c/Users/mrpour/CLionProjects/C++learning/string/String.cpp
 
-CMakeFiles/C__learning.dir/stl/list_demo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C__learning.dir/stl/list_demo.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/mrpour/CLionProjects/C++learning/stl/list_demo.cpp > CMakeFiles/C__learning.dir/stl/list_demo.cpp.i
+CMakeFiles/C__learning.dir/string/String.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C__learning.dir/string/String.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/mrpour/CLionProjects/C++learning/string/String.cpp > CMakeFiles/C__learning.dir/string/String.cpp.i
 
-CMakeFiles/C__learning.dir/stl/list_demo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C__learning.dir/stl/list_demo.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/mrpour/CLionProjects/C++learning/stl/list_demo.cpp -o CMakeFiles/C__learning.dir/stl/list_demo.cpp.s
+CMakeFiles/C__learning.dir/string/String.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C__learning.dir/string/String.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/mrpour/CLionProjects/C++learning/string/String.cpp -o CMakeFiles/C__learning.dir/string/String.cpp.s
+
+CMakeFiles/C__learning.dir/string/string_main.cpp.o: CMakeFiles/C__learning.dir/flags.make
+CMakeFiles/C__learning.dir/string/string_main.cpp.o: ../string/string_main.cpp
+CMakeFiles/C__learning.dir/string/string_main.cpp.o: CMakeFiles/C__learning.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/mrpour/CLionProjects/C++learning/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/C__learning.dir/string/string_main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/C__learning.dir/string/string_main.cpp.o -MF CMakeFiles/C__learning.dir/string/string_main.cpp.o.d -o CMakeFiles/C__learning.dir/string/string_main.cpp.o -c /mnt/c/Users/mrpour/CLionProjects/C++learning/string/string_main.cpp
+
+CMakeFiles/C__learning.dir/string/string_main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C__learning.dir/string/string_main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/mrpour/CLionProjects/C++learning/string/string_main.cpp > CMakeFiles/C__learning.dir/string/string_main.cpp.i
+
+CMakeFiles/C__learning.dir/string/string_main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C__learning.dir/string/string_main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/mrpour/CLionProjects/C++learning/string/string_main.cpp -o CMakeFiles/C__learning.dir/string/string_main.cpp.s
 
 # Object files for target C__learning
 C__learning_OBJECTS = \
-"CMakeFiles/C__learning.dir/stl/list_demo.cpp.o"
+"CMakeFiles/C__learning.dir/string/String.cpp.o" \
+"CMakeFiles/C__learning.dir/string/string_main.cpp.o"
 
 # External object files for target C__learning
 C__learning_EXTERNAL_OBJECTS =
 
-C__learning: CMakeFiles/C__learning.dir/stl/list_demo.cpp.o
+C__learning: CMakeFiles/C__learning.dir/string/String.cpp.o
+C__learning: CMakeFiles/C__learning.dir/string/string_main.cpp.o
 C__learning: CMakeFiles/C__learning.dir/build.make
 C__learning: CMakeFiles/C__learning.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/mrpour/CLionProjects/C++learning/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable C__learning"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/mrpour/CLionProjects/C++learning/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable C__learning"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/C__learning.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -9,7 +9,7 @@ String::String(const char* str)
     {
         //开辟数组空间
         m_data = new char[1];
-        if(m_data != NULL)
+        if(m_data != nullptr)
         {
             //对数组赋值
             *m_data = '\0';
@@ -24,7 +24,7 @@ String::String(const char* str)
         int len = strlen(str);
         //字符串的数组以/0结尾
         m_data = new char[len+1];
-        if(m_data != NULL)
+        if(m_data != nullptr)
         {
             strcpy(m_data,str);
         }
@@ -40,7 +40,7 @@ String::String(const String& other)
     int len = strlen(other.m_data);
     //字符串的数组以/0结尾
     m_data = new char[len+1];
-    if(m_data != NULL)
+    if(m_data != nullptr)
     {
         strcpy(m_data,other.m_data);
     }
@@ -52,11 +52,11 @@ String::String(const String& other)
 //移动构造函数：通过move方法获取String&&
 String::String(String&& other)
 {
-    if(other.m_data != NULL)
+    if(other.m_data != nullptr)
     {
         //资源让渡
         m_data = other.m_data;
-        other.m_data = NULL;
+        other.m_data = nullptr;
     }
 }
 
@@ -70,7 +70,7 @@ String& String::operator=(const String& other) {
         int len = strlen(other.m_data);
         //字符串的数组以/0结尾
         m_data = new char[len + 1];
-        if (m_data != NULL) {
+        if (m_data != nullptr) {
             strcpy(m_data, other.m_data);
         } else {
             exit(-1);
@@ -98,7 +98,7 @@ ostream& operator<<(ostream& os,const String& str)
 }
 
 String::~String() {
-    if(m_data!=NULL)
+    if(m_data!= nullptr)
     {
         delete[] m_data;
     }

@@ -1,1 +1,1 @@
-/usr/bin/c++ -g -rdynamic CMakeFiles/C__learning.dir/stl/list_demo.cpp.o -o C__learning 
+/usr/bin/c++ -g -rdynamic CMakeFiles/C__learning.dir/string/String.cpp.o CMakeFiles/C__learning.dir/string/string_main.cpp.o -o C__learning 

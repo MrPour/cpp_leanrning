@@ -16,7 +16,7 @@ private:
     double _y;
 };
 
-//对需要增强的方法进行一个接口暴露
+//对需要增强的方法进行一个接口暴露，抽象类通常用做接口继承
 class NewTool{
 public:
     virtual void newMethod(string str) = 0;
